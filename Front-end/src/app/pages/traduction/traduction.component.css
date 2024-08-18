@@ -1,0 +1,120 @@
+.trad{
+    margin-top: 120px;
+}
+
+a {
+    margin-left: 10px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.title{
+    margin-top: -30px;
+}
+
+.title h1{
+    font-size: 60px;
+    color: #243964;
+    text-align: center;
+}
+
+.title p {
+    margin-top: -20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+
+/* traduction.component.css */
+.translation-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .text-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .button-group {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-btn {
+    background-color: #243964;
+    color: white;
+  }
+  
+  .clear-btn {
+    background-color: #a5a5a5;
+    color: white;
+  }
+
+  .save-btn {
+    background-color: rgb(13, 139, 13);
+    color: white;
+  }
+  
+  .btn:hover {
+    opacity: 0.8;
+  }
+
+
+
+/**************History table**************/
+
+  .history {
+    margin-top: 40px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    max-height: 100px;
+    margin-bottom: 200px;
+  }
+  
+  .history table {
+    border-collapse: collapse; 
+  }
+
+  td, th {
+    border: 1px solid #ccc;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #5f78a9;
+    color: white;
+  }
+
+

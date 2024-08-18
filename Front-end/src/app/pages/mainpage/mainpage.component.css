@@ -1,0 +1,105 @@
+/**********************************HOME******************************/
+.home {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 100px);
+  text-align: center;
+
+}
+
+.btn{
+  margin-top: 10px;
+  background-color: #243964;
+  color: #fff;
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  border: #243964;
+  border-radius: 5px;  
+  font-size: 20px;
+  transition: opacity 0.5s;
+}
+
+
+.btn:hover{
+  opacity: 0.8;
+}
+
+.description{
+  width: 500px;
+  margin-right: 100px;
+}
+
+.description p {
+  font-size: 24px;
+  line-height: 1.6;
+    letter-spacing: 0.5px;
+}
+
+
+.description h1 {
+  font-size: 35px;
+  color: #243964;
+}
+
+.image{
+  width: 400px;
+}
+
+.image img {
+  width: 400px;
+  height: auto;
+}
+
+/**********************************CARDS*************************/
+
+.translations {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.card {
+  position: relative;
+  width: 450px;
+  height: 300px;
+  cursor: pointer;
+  transition: opacity 0.5s;
+}
+
+.card:hover{
+  opacity: 0.8;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.title{
+  font-size: 60px;
+  color: #243964;
+}
+
+.card h1 {
+  position: absolute;
+  align-items: center;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%, -230%);
+  color: white;
+  background-color: rgba(4, 23, 62, 0.5); 
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0;
+}

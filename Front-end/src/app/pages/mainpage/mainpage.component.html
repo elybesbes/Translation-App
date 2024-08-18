@@ -1,0 +1,23 @@
+<app-header></app-header>
+<div id="discover" class="home">
+    <div class="description">
+        <h1> Welcome to the translation tool</h1>
+        <p>This web application supports your work by providing accurate translations from English to Arabic. Simply select the field you are working on, and you will receive precise translations powered by the Artificial Intelligence.</p>
+        <button class="btn">Let's Start</button>
+    </div>
+    <div class="image">
+        <img src="../../../assets/Translation.png" alt="">
+    </div>
+</div>
+
+<div id="" class="translations">
+    <h1 class="title">Select the field you are working on !</h1>
+    <div class="cards">
+        <div class="card" *ngFor="let card of cards" (click)="gototrad(card.title)">
+            <img src="{{card.image}}" alt="{{card.title}}">
+            <h1>{{card.title}}</h1>
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>

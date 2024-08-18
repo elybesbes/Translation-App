@@ -1,0 +1,8 @@
+.footercore{
+    margin-top: 100px;
+    background-color: #243964;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
